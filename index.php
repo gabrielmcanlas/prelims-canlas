@@ -53,6 +53,30 @@
 
     <input type="submit" value="Submit Student Information">
   </form>
+
+  <!-- Grade Entry Form -->
+  <div id="grade-form">
+    <h2>Enter Grades </h2>
+
+    <form action="submit_grades.php" method="post">
+      <div class="form-row">
+        <label for="prelim">Prelim Grade:</label>
+        <input type="number" id="prelim" name="prelim" required><br><br>
+      </div>
+
+      <div class="form-row">
+        <label for="midterm">Midterm Grade:</label>
+        <input type="number" id="midterm" name="midterm" required><br><br>
+      </div>
+
+      <div class="form-row">
+        <label for="final">Final Grade:</label>
+        <input type="number" id="final" name="final" required><br><br>
+      </div>
+
+      <input type="submit" value="Submit Grades">
+    </form>
+  </div>
 </div>
 </body>
 </html>
