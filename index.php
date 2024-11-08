@@ -6,6 +6,76 @@
     <title>Enrollment form</title>
 </head>
 <body>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px; 
+    }
+
+    h2 {
+      max-width: 1100px;  
+      margin: 0 auto; 
+    }
+
+    form {
+      max-width: 1100px;  
+      margin: 0 auto;
+    }
+
+    label {
+      display: inline-block;
+      margin-bottom: 10px; 
+      font-weight: bold;
+    }
+
+    input[type="text"], input[type="email"], input[type="number"], select {
+      width: 100%;
+      padding: 12px; 
+      margin-bottom: 15px; 
+      border: 1px solid #ccc;
+      border-radius: 6px; 
+      box-sizing: border-box; 
+    }
+
+    input[type="radio"] {
+      margin-right: 10px; 
+    }
+
+    .form-row {
+      margin-bottom: 20px; 
+    }
+
+    input[type="submit"] {
+      background-color: #007BFF; 
+      color: white;
+      padding: 8px 16px; 
+      border: none;
+      border-radius: 6px; 
+      cursor: pointer;
+      width: auto; 
+      margin-top: 20px; 
+      display: inline-block; 
+      font-size: 14px; 
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3; 
+    }
+
+    /* Hide the grade entry form initially */
+    #grade-form {
+      display: none;
+    }
+
+  </style>
 <h1>Student Enrollment And Grade Processing System</h1>
 
 <!-- Enrollment Form -->
